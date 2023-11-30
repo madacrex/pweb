@@ -1,0 +1,221 @@
+.portada {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    
+    }
+    
+    
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    
+    li {
+        display: inline-block;
+        position: sticky;
+    }
+    
+    li a {
+        display: block;
+        color: rgb(156, 22, 22);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #bbb8b8;
+    }
+    
+    li a:active {
+        color: rgb(11, 4, 107);
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Ubuntu';
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        justify-content: center;
+    }
+    
+    .container-title {
+        padding: 30px;
+        background-color: #eee;
+        margin-bottom: 50px;
+        color: #222;
+    }
+    
+    main {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 80px;
+    }
+    
+    .container-img {
+        background-color: #f7f7f9;
+        flex: 1;
+    }
+    
+    .container-info-product {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-price {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e4e4e4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    
+    
+    .container-description,
+    .container-additional-information,
+    .container-reviews {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #e4e4e4;
+        padding: 10px 0;
+    }
+    
+    .title-description,
+    .title-additional-information,
+    .title-reviews {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .title-description h4,
+    .title-additional-information h4,
+    .title-reviews h4 {
+        font-weight: 300;
+        color: #666;
+        font-size: 14px;
+    }
+    
+    .text-description,
+    .text-additional-information,
+    .text-reviews {
+        font-size: 13px;
+        color: #252525;
+        line-height: 22px;
+        margin-top: 25px;
+    }
+    
+    .card-list-products {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+    
+    .card {
+        cursor: pointer;
+    }
+    
+    .card-img {
+        background: transparent;
+        margin-bottom: 15px;
+    }
+    
+    .card-img img {
+        height: 400px;
+        object-fit: cover;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    
+    .info-card {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .text-product {
+        color: #252525;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+    
+    .text-product h3{
+        color: inherit;
+        font-weight: inherit;
+        font-size: 15px;
+    }
+    
+    .text-product h3:hover{
+        color: #1bbeb4;
+    }
+    
+    .text-product p{
+        color: #666;
+        font-size: 13px;
+    }
+    
+    .text-product p:hover{
+        color: #1bbeb4;
+    }
+    
+    footer {
+        padding: 30px;
+        background-color: #eee;
+        margin-top: 50px;
+        color: #222;
+    }
+    
+    .add-to-cart {
+        background-color: #bb2626;
+        color: white;
+        border: none;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+    #cart {
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #f9f9f9;
+    }
+    
+    #cart h2 {
+        margin-top: 0;
+    }
+    
+    #cart ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    #cart li {
+        margin-bottom: 10px;
+    }
